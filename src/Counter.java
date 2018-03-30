@@ -12,6 +12,7 @@ public class Counter {
 	 * Add an amount to the total.
 	 */
 	public void add(int amount) { total += amount; }
+	public void sub(int amount) { total -= amount; }
 	
 	/**
 	 * Get the total value of counter.
